@@ -1,3 +1,7 @@
+# from selenium import webdriver
+# from selenium.webdriver.common.keys import Keys
+
+
 def google_serch():
     driver = webdriver.Chrome(executable_path="/Users/mac/Documents/Selenium/chromedriver")
     driver.implicitly_wait(3)
